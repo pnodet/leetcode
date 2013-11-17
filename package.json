@@ -1,0 +1,24 @@
+{
+  "name": "leetcode",
+  "description": "Javascript solutions to leetcode problems",
+  "version": "1.0.0",
+	"private": true,
+  "scripts": {
+    "format": "prettier --write \"**/*.js\""
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSpacing": false,
+    "jsxSingleQuote": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "useTabs": true,
+    "proseWrap": "always",
+    "printWidth": 80
+  },
+  "author": "Paul Nodet",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
